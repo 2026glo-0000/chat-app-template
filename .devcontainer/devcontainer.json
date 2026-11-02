@@ -1,0 +1,17 @@
+{
+  "name": "多言語チャットアプリ制作",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "ms-vscode.live-server"
+      ],
+      "settings": {
+        "git.enableSmartCommit": true,
+        "git.postCommitCommand": "sync"
+      }
+    }
+  }
+}
